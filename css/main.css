@@ -64,13 +64,17 @@ body
 {
     font-family: 'Open Sans', sans-serif;
 }
+footer
+{
+    position: relative;
+}
 header
 {
     background-color: black;
 }
 header #socialn
 {
-    padding-left: 15em;
+    padding-left: 10em;
     padding-top: 1.5em;
 }
 header #socialn img
@@ -85,8 +89,26 @@ div #logo
 }
 nav li
 {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+#boton_b
+{
+    padding-right: 0px;
+}
+#menuup
+{
+    text-align: center;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.servicios
+{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
 }
 .adaptar
 {
@@ -102,27 +124,9 @@ nav li
     color: white;
     font-size: 1em;
 }
-.navg
-{
-    background: #5675AD;
-}
 
-.color1
-{
-    background: purple;
-}
-.color2
-{
-    background: orange;
-}
-.color3
-{
-    background: silver;
-}
-.color4
-{
-    background: white;
-}
+
+
 
 
 
@@ -149,6 +153,12 @@ nav li
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
 
+}
+@media screen  (max-width: 768px) {
+    .servicios
+    {
+        display: none;
+    }
 }
 
 /* ==========================================================================
